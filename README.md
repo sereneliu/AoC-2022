@@ -8,6 +8,8 @@ I loved Advent of Code since my first participation in 2017 and I've been meanin
 
 Some quick thoughts. I don't know any more algorithms & data structures than I did before, so my initial solutions are very similar to what I would have came up with that first year. On the other hand, I can get to the solution a bit quicker just because I've been a dev long enough now that I don't need to print every line to see what I'm doing. I did still add a print statement here or there for debugging. What took the most time in this first puzzle was simply lots of Googling how to do things in Python, b/c while I had a rough idea, I forgot the exact syntax for certain things. I also spent time exploring using an object instead of a dictionary, but found that was more complex than what I really needed for the first iteration. I'm positive my solution is not the most elegant and I will look at how others solved it in the morning. Not really sure why I'm attempting these puzzles close to midnight when I have no intention of speed running this.
 
+Morning update: yeah, even my dict was too complicated. I stored more data than I really needed and I could have done this more simply by just adding up the totals into a list and then sorting. I didn't know if part 2 needed knowledge of which elf or individual calories, not just the total. But next time, I should just refactor as needed and only store what I need to solve the problem.
+
 ## Day 2
 
 ## Day 3
