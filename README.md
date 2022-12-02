@@ -12,6 +12,8 @@ Morning update: yeah, even my dict was too complicated. I stored more data than 
 
 ## Day 2
 
+There were not that many possible outcomes so I just wrote them all out. I'm pretty sure there's a concept that I'm missing that would help me solve this without doing that. It is late though, so I will research more tomorrow.
+
 ## Day 3
 
 ## Day 4
