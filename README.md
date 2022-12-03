@@ -16,6 +16,6 @@ There were not that many possible outcomes so I just wrote them all out. I'm pre
 
 ## Day 3
 
-Easiest day for me thus far. I did keep making "off by one" type mistakes. Also, I knew that I could just import the alphabet instead of typing it all out, but I figured that would be faster than looking up how to do it. I still had to look up a bunch of basic stuff that I used to know but forgot b/c it's been a long time since I've coded in Python, but the good thing is, my vague memory of how Python works still made it easy to Google what I needed. As usual, I'm sure there's an even better way of solving this, so I'll go study other people's solutions this weekend and see what else I can learn. I will also finally have the time to go back and fix some of our prior solutions to make them a bit more elegant.
+Easiest day for me thus far. I did keep making "off by one" type mistakes. Also, I knew that I could just import the alphabet instead of typing it all out, but I figured that would be faster than looking up how to do it. I still had to look up a bunch of basic stuff that I used to know but forgot b/c it's been a long time since I've coded in Python. The good thing is, my vague memory of how Python works still made it easy to Google what I needed. As usual, I'm sure there's an even better way of solving this, so I'll go study other people's solutions this weekend and see what else I can learn. I will also finally have the time to go back and fix some of our prior solutions to make them a bit more elegant.
 
 ## Day 4
