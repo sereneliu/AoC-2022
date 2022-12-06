@@ -24,3 +24,11 @@ I feel really good about today's puzzle. I took the time to refactor functions a
 
 * I have no intention of getting on the leaderboard, but I like doing the puzzles at midnight, when possible, because it's easier to see how much time I spend on each puzzle. If I am too tired, then I'll just make sure I time myself. Anyway, while I don't care for the competitive aspect, I do care that I'm spending less time solving these puzzles than I used to (relative to complexity), as a measurable method of seeing improvement in my coding.
 * I have no intention to solve puzzles in as few lines as possible. I find those really hard to understand, and at work, when I code review stuff, I always comment on readability. Of course, this isn't work and it is for fun. I do understand why others do it, but I still prefer readability. That said, I do care about making my solutions more elegant (defined here as "as concise as possible while maintaining readability"). When the puzzles get more complex, I will also have to pay more attention to performance. So far, it hasn't really mattered, which is typical for week 1 of Advent of Code.
+
+## Day 5
+
+First day I didn't start the puzzles at midnight. Took ~2 hours for part 1 and ~1 hour for part 2. Honestly, part 2 should have been really quick, except I spent ~90% of that time struggling b/c I didn't realize that I needed to deep copy the dict or else I'm not starting from the initial stacks, but rather the ending stacks from part 1, even though I created a new variable to store the initial stacks. Lesson learned. For part 1, I also wasted a lot of time debugging, but mostly b/c I debugged in the wrong place. I had two incorrect assumptions: (1) that the boxes I move from one stack to the other are single digits and (2) that my mistake was in the actual moving part and not in the instruction part. Other than that, honestly, this puzzle wasn't hard, just took awhile to parse.
+
+## Day 6
+
+Since it's already past midnight and I just wrapped up Day 5, I'm not about to start another puzzle. I will do this during the day tomorrow (technically, later today). Ideally, I would like to finish my puzzles before the 24 hour mark.
