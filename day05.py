@@ -1,12 +1,13 @@
-puzzle_input = open('day05.txt', 'r').read().split('\n')
+from copy import deepcopy
 
-stacks = {}
-rearrangement_procedure = []
+puzzle_input = open('day05.txt', 'r').read().split('\n')
 
 def split_crates(row):
     return [row[i:i+3] for i in range(0, len(row), 4)]
 
 def init(drawing):
+    stacks = {}
+    rearrangement_procedure = []
     for i in range(len(split_crates(drawing[0]))):
         stacks[i + 1] = []
     for row in drawing:
@@ -19,36 +20,52 @@ def init(drawing):
             for crate in crates_in_row:
                 stacks[i].insert(0, crate)
                 i += 1
+    stacks = remove_empty(stacks)
+    return stacks, rearrangement_procedure
 
-def remove_empty():
-    for i in range(len(stacks.keys())):
-        stack = stacks[i + 1]
+def remove_empty(stacks_with_empty):
+    for i in range(len(stacks_with_empty.keys())):
+        stack = stacks_with_empty[i + 1]
         while '   ' in stack:
-            stacks[i + 1].remove('   ')
+            stacks_with_empty[i + 1].remove('   ')
+    return stacks_with_empty
 
-def move_crate(no_of_crates, starting_stack, ending_stack):
-    # print("move", no_of_crates, 'crates')
+def move_crate(all_stacks, no_of_crates, starting_stack, ending_stack):
     for i in range(no_of_crates):
-        # print("from", starting_stack, stacks[starting_stack])
-        # print("to", ending_stack, stacks[ending_stack])
-        stacks[ending_stack].append(stacks[starting_stack][-1])
-        stacks[starting_stack].pop()
+        all_stacks[ending_stack].append(all_stacks[starting_stack][-1])
+        all_stacks[starting_stack].pop()
 
-def find_final_arrangement(instructions):
+def move_crate2(all_stacks, no_of_crates, starting_stack, ending_stack):
+    all_stacks[ending_stack] += all_stacks[starting_stack][-1 * no_of_crates:]
+    all_stacks[starting_stack] = all_stacks[starting_stack][:-1 * no_of_crates]
+
+def find_final_arrangement(all_stacks, instructions, is_new):
     for instruction in instructions:
-        move_crate(instruction[0], instruction[1], instruction[2])
+        if is_new:
+            move_crate2(all_stacks, instruction[0], instruction[1], instruction[2])
+        else:
+            move_crate(all_stacks, instruction[0], instruction[1], instruction[2])
 
-def get_top_crates():
+def get_top_crates(stack_arrangement):
     top_crates = ''
-    for i in range(len(stacks.keys())):
-        stack = stacks[i + 1]
+    for i in range(len(stack_arrangement.keys())):
+        stack = stack_arrangement[i + 1]
         top_crates += stack[-1].strip('[]')
     return top_crates
 
-def part1(input):
-    init(input)
-    remove_empty()
-    find_final_arrangement(rearrangement_procedure)
-    return get_top_crates()
+def part1(all_stacks, instructions):
+    find_final_arrangement(all_stacks, instructions, False)
+    return get_top_crates(all_stacks)
 
-print(part1(puzzle_input)) # QPJPLMNNR
+def part2(all_stacks, instructions):
+    find_final_arrangement(all_stacks, instructions, True)
+    return get_top_crates(all_stacks)
+
+def both(puzzle_input):
+    initial_stacks, rearrange_procedure = init(puzzle_input) # MHGSNWWVF
+    stacks = deepcopy(initial_stacks)
+    print(get_top_crates(stacks))
+    print(part1(stacks, rearrange_procedure)) # QPJPLMNNR
+    print(part2(initial_stacks, rearrange_procedure)) # BQDNWJPVJ
+
+both(puzzle_input)
