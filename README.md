@@ -32,3 +32,9 @@ First day I didn't start the puzzles at midnight. Took ~2 hours for part 1 and ~
 ## Day 6
 
 Since it's already past midnight and I just wrapped up Day 5, I'm not about to start another puzzle. I will do this during the day tomorrow (technically, later today). Ideally, I would like to finish my puzzles before the 24 hour mark.
+
+Later: Maybe I should have just done this puzzle right after I wrapped up day 5. It's a good balance to yesterday's puzzle that took hours. I did both parts under 15 mins and would have been faster if I didn't actually read the entire story and went straight to what they were looking for. Since I'm not trying to speed code, I actually enjoy reading everything. That said, I still got it wrong on the first try, because I took the index of the first character instead of the final one in the four-character marker. Once I realized my mistake, I got the answer so fast, AoC made me wait before resubmitting. Heh.
+
+## Day 7
+
+
