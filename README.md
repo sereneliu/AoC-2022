@@ -48,3 +48,7 @@ The way I'm going about solving the puzzle is definitely not great, but I did ma
 Feverish from covid vaccine, so not thinking straight. Still, I wanted to attempt today's puzzle. Need to come back to this later. I'm not handling the diagonals correctly and I know that, but my brain cannot focus anymore.
 
 Realistically, going forward, the puzzles are only going to get harder. So, my intention is to try and solve what I can within the 24 hour period, but if I don't succeed, I will get back to it in January. Unfortunately, December is always a busy time so I can't just dedicate hours to AoC like I did in 2017. I'm already proud of myself for keeping up with it longer than I have previous years. As of right now, I have more total stars from 2018, but I gave up after day 5 and just sporadically went back to it. 
+
+# Day 10
+
+Theme of the day is not comprehending the instructions. Took an hour for part 1, and 25 min for part 2. I'm going to continue to blame the fever, b/c the puzzle was very straightforward once I clearly understood what I was supposed to do.
