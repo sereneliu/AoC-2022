@@ -33,9 +33,9 @@ def realign_tail(old, new, head, tail):
         old == 'D' and new == 'U' or \
         old == 'L' and new == 'R' or \
         old == 'R' and new == 'L' or \
-        (abs(hx - hy) == 1 and abs(hy - hx) == 1):
+        (abs(hx - tx) == 1 and abs(hy - ty) == 1):
         return tail
-    elif old == new and (abs(hx - hy) == 2 or abs(hy - hx) == 2):
+    elif old == new and (abs(hx - tx) == 2 or abs(hy - ty) == 2):
         tx, ty = move(old, tail)
     elif old == 'U' and new == 'R' or \
         old == 'R' and new == 'U':
