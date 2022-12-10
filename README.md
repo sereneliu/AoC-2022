@@ -42,3 +42,9 @@ Alright, we've come to it - the first puzzle I need to get back to later. The mi
 ## Day 8
 
 The way I'm going about solving the puzzle is definitely not great, but I did manage to complete part 1 after lots of trial & error. Started on part 2, but there's so much to refactor that I'm giving up for tonight.
+
+# Day 9
+
+Feverish from covid vaccine, so not thinking straight. Still, I wanted to attempt today's puzzle. Need to come back to this later. I'm not handling the diagonals correctly and I know that, but my brain cannot focus anymore.
+
+Realistically, going forward, the puzzles are only going to get harder. So, my intention is to try and solve what I can within the 24 hour period, but if I don't succeed, I will get back to it in January. Unfortunately, December is always a busy time so I can't just dedicate hours to AoC like I did in 2017. I'm already proud of myself for keeping up with it longer than I have previous years. As of right now, I have more total stars from 2018, but I gave up after day 5 and just sporadically went back to it. 
