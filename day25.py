@@ -5,28 +5,29 @@ snafu_dict = {
     '0': 0,
     '1': 1,
     '2': 2,
-    '=': 3,
-    '-': 4
+    '=': -2,
+    '-': -1
 }
 
 num_dict = {
     0: '0',
     1: '1',
     2: '2',
-    3: '=',
-    4: '-',
+    3: '1=',
+    4: '1-',
     5: '10',
     6: '11',
     7: '12',
-    8: '1=',
-    9: '1-'
+    8: '2=',
+    9: '2-'
 }
 
 def convert_snafu(snafu):
-    snafu_pos = len(snafu)
+    snafu_pos = len(snafu) - 1
     number = 0
     for digit in snafu:
-        number += snafu_dict[digit] * snafu_pos * 5
+        number += snafu_dict[digit] * 5**snafu_pos 
+        snafu_pos -= 1
     return number
 
 def convert_number(number):
