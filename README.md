@@ -52,3 +52,41 @@ Realistically, going forward, the puzzles are only going to get harder. So, my i
 # Day 10
 
 Theme of the day is not comprehending the instructions. Took an hour for part 1, and 25 min for part 2. I'm going to continue to blame the fever, b/c the puzzle was very straightforward once I clearly understood what I was supposed to do.
+
+# Day 11
+
+This is the day I stopped working on one puzzle a day. I'm happy that I managed to at least attempt (and actually did finish many of) the first 10 days. I remember on this day, I was just super busy with stuff at home that the most I managed to do was read the puzzle prompt.
+
+# Day 12
+
+The next day, I wasn't really ready to give up, so I figured out how to code on my phone. Apparently repl.it has a mobile app now. While I was indeed away from my computer all weekend, I wasn't truly busy all the time, and I thought that if I could code on my phone, I could still work on AoC on/off throughout the day while waiting around for other stuff. Didn't get very far before I realized why there isn't really that many resources for coding on a phone. After this little experiment, I finally admitted defeat. 
+
+# Day 13
+
+# Day 14
+
+# Day 15
+
+# Day 16
+
+# Day 17
+
+# Day 18
+
+# Day 19
+
+# Day 20
+
+# Day 21
+
+# Day 22
+
+# Day 23
+
+# Day 24
+
+I attempted day 24 on the actual day, but as the French mostly celebrate on the 24th, I only got so far before we had to start prepping for dinner.
+
+# Day 25
+
+
